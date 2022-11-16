@@ -49,6 +49,12 @@ export const projects =[
         demo: "https://luckybirthday-00.netlify.app/"
     },
     {
+        name: "Fun with Triangles",
+        desc: "You can check for the area of a triangle, test your knowledge of triangles or calculate the hypotenuse of a triangle in this website.",
+        github: "https://github.com/Med1020/All-about-triangles",
+        demo: "https://allabouttriangles-00.netlify.app/"
+    },
+    {
         name: "Palindrome Birthday",
         desc: "An app which checks whether your birthday is a palindrome birthday.",
         github: "https://github.com/Med1020/Palindrome-Birthday",
