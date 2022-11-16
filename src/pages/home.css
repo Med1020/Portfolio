@@ -1,0 +1,45 @@
+.home{
+    position: relative;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first{
+    font-size: 1.5rem;
+    line-height: 0.1em;
+ 
+}
+
+.second{
+    font-size: 6rem;
+    
+
+}
+
+.third{
+ 
+    font-size: 2.5rem;
+
+}
+
+
+
+.text{
+    width: auto;
+    display: flex;
+    transform: translateX(+20%);
+
+}
+
+@media screen and (max-width:1000px) {
+    .second{
+       
+        flex-direction: column;
+    }
+
+    .text{
+        transform: translate(10%);
+    }
+}

@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 0;
+  background-color: #18191a;
+  color: #b0b3b8;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar {
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  width: auto;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-items {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  top: 0;
+  z-index: 100;
+  opacity: 1;
+  background-color: #242526;
+}
+.nav-items .item {
+  padding: 12px 40px;
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-items :hover, .nav-items :active, .nav-items :focus {
+  border-bottom: 1px solid white;
+}
+.nav-items .selected {
+  border-bottom: 1px solid white;
+}
+
+.page {
+  width: auto;
+  height: calc(100vh - 50px);
+}
+
+.header {
+  text-align: center;
+  border-bottom: 1px solid white;
+  width: 30%;
+  margin: auto;
+}
+
+.social-media-list {
+  list-style: none;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+}
+.social-media-list .social-media-list-link {
+  padding: 2rem;
+  font-size: 2rem;
+  display: inherit;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.social-media-list .media-icons {
+  font-size: 32px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact {
+  color: #18191a;
+  text-align: center;
+  background-color: aliceblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projects {
+  width: auto;
+  height: calc(300vh - 50px);
 }
+
+.blog {
+  transform: translate(20%);
+}
+
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,15 @@
+
+.intro, .techstack{
+    width: 70%;
+    margin: 50px 0px;
+}
+
+.techstack{
+    flex-direction: column;
+}
+
+.ts-list{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
