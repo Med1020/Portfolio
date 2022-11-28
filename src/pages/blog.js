@@ -19,7 +19,7 @@ function Blog() {
           </p>
         <a
           className="blog-post"
-          href={'./blogpost'}
+          href={'https://dummy-blog-post-00.netlify.app/'}
           target="_blank"
           rel="noopener noreferrer"
         >
